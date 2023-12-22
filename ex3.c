@@ -5,7 +5,8 @@ int main() {
     char second[9] = {};
 
     scanf("%s",&first);
-     scanf("%s",&second);
+    scanf("%s",&second);
 
+    printf("you are: %s %s",first,second);
     return 0;
 }
